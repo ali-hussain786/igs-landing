@@ -1,0 +1,133 @@
+@media (max-width: 1023px) {
+    #background {
+        background-position: center;
+    }
+
+    #right-hero {
+        display: none;
+    }
+
+    #hero-main {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 34px;
+        align-items: center;
+    }
+
+    /* Show hamburger */
+    .hamburger {
+        display: block;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        margin-left: 10px;
+        z-index: 9999;
+    }
+
+    /* Hide checkbox */
+    .menu-toggle {
+        display: none;
+    }
+
+    #main-points {
+        display: none;
+    }
+
+
+    /* second block styling*/
+    #second-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 64px;
+        padding: 8px 0 0 32px;
+    }
+
+    #main-content {
+        margin-top: 10px;
+    }
+
+    #core-statements {
+        text-align: center;
+        margin: 40px auto 28px;
+        padding-right: 32px;
+    }
+
+    .core-statement {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .core-statement-description {
+        margin: 0;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #core-img-1 {
+        width: 420px;
+        height: auto;
+    }
+
+    #core-img-2 {
+        display: none;
+    }
+
+    #explore-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #third-block {
+        margin-top: 20px;
+    }
+
+    #features {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .feature {
+        padding: 16px;
+        min-height: 170px;
+        width: 100%;
+    }
+
+    .feature-heading {
+        font-size: 20px;
+        max-width: 510px;
+    }
+
+    .feature-description {
+        font-size: 15px;
+        max-width: 510px;
+    }
+}
+@media (min-width: 1200px),
+(min-width: 1024px) {
+
+    /* Show the desktop nav */
+    #right-hero {
+        display: block;
+    }
+
+    /* Hide hamburger */
+    .hamburger {
+        display: none;
+    }
+
+    /* Show checkbox */
+    .menu-toggle {
+        display: none;
+    }
+
+    /* Mobile menu hidden by default */
+    .mobile-menu {
+        display: none;
+    }
+
+    #core-img-1 {
+        display: none;
+    }
+}
